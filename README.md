@@ -28,3 +28,4 @@ Der Befehl dazu lautet:
 php bin/console debug:router
 ~~~
 
+Dann werden alle Routen angezeigt. Alle Routen aus der v6.4.7.0-Stable-Version können hier eingesehen werden. 
