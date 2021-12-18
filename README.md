@@ -22,3 +22,9 @@ Ich habe im Admin bereich einen API Schlüssel Set erstellt, aber mit diesem kan
 **Frage:** Weiß jemand warum Swagger hier nicht alles anzeigt? <br>
 
 Als nächstes habe ich irgendwo im Internet gefunden, das man über die Console, (das ist sicherlich ein Symfony Funktion) sich die Routen anzeigen kann. 
+
+Der Befehl dazu lautet: 
+~~~
+php bin/console debug:router
+~~~
+
