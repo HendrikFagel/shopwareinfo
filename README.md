@@ -1,6 +1,7 @@
 # shopwareinfo
-Meine Information über Shopware
-Hallo alle zusammen, 
+Meine Information über Shopware<br>
+
+Hallo alle zusammen, <br>
 
 gerne möchte ich micht etwas mit der API von Shopware beschäftigen, und dabei habe ich keine Ahnung von Programmierung und keine große Ahnung von Shopware API.
 
