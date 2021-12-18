@@ -16,9 +16,9 @@ ab diesen Moment kann man auch den Swagger über die URL im Browser aufrufen.
 
 https://example.com/api/_info/swagger.html#/
 
-Dann kann man teile der Spezifikation einsehen. 
-Frage: Hier kann man scheinbar einloggen. Weiß jemand ob das überhaupt geht? 
-Ich habe im Admin bereich einen API Schlüssel Set erstellt, aber mit diesem kann ich mit im Swagger nicht einloggen. 
-Frage: Weiß jemand warum Swagger hier nicht alles anzeigt? 
+Dann kann man teile der Spezifikation einsehen. <br>
+**Frage:** Hier kann man scheinbar einloggen. Weiß jemand ob das überhaupt geht? <br>
+Ich habe im Admin bereich einen API Schlüssel Set erstellt, aber mit diesem kann ich mit im Swagger nicht einloggen. <br>
+**Frage:** Weiß jemand warum Swagger hier nicht alles anzeigt? <br>
 
 Als nächstes habe ich irgendwo im Internet gefunden, das man über die Console, (das ist sicherlich ein Symfony Funktion) sich die Routen anzeigen kann. 
