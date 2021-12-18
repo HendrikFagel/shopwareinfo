@@ -7,10 +7,10 @@ gerne möchte ich micht etwas mit der API von Shopware beschäftigen, und dabei 
 Was ich bis jetzt herausgefunden habe und Ausprobiert habe, ist folgendes. 
 
 Wenn man den Shop installiert  hat dann kann man in der Datei .env ( welche im Root des Shops liegt den Shop auf dev umstellen. 
-
-  #APP_ENV="prod"
-  APP_ENV="dev"
-
+~~~
+#APP_ENV="prod"
+APP_ENV="dev"
+~~~
 ab diesen Moment kann man auch den Swagger über die URL im Browser aufrufen. 
 
 https://example.com/api/_info/swagger.html#/
