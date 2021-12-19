@@ -1,18 +1,16 @@
 # shopwareinfo
-Meine Information über Shopware<br>
-
 Hallo alle zusammen, <br>
 
-gerne möchte ich micht etwas mit der API von Shopware beschäftigen, und dabei habe ich keine Ahnung von Programmierung und keine große Ahnung von Shopware API.
+gerne möchte ich micht mit Shopware-API beschäftigen. Leider habe ich keine Ahnung von Programmierung und keine Ahnung von Shopware-API.
 
-Was ich bis jetzt herausgefunden habe und Ausprobiert habe, ist folgendes. 
+Was ich bis jetzt herausgefunden habe und Ausprobiert habe: 
 
-Wenn man den Shop installiert  hat dann kann man in der Datei .env ( welche im Root des Shops liegt den Shop auf dev umstellen. 
+Wenn man den Shop installiert hat, dann kann man in der Datei .env (welche im Root des Shops liegt), den Shop auf developer-Version umstellen. 
 ~~~
 #APP_ENV="prod"
 APP_ENV="dev"
 ~~~
-ab diesen Moment kann man auch den Swagger über die URL im Browser aufrufen. 
+Ab diesen Moment kann man auch den Swagger über die URL im Browser aufrufen. 
 
 https://example.com/api/_info/swagger.html#/
 
