@@ -32,7 +32,7 @@ https://github.com/HendrikFagel/shopwareinfo/blob/main/shopware-v6.4.7.0-Stable-
 
 Als nächstes möchte ich zeigen, wie eine Abfrage über die Shopware-API realisiert werden kann.
 
-
+# API-Abfrage mit einer Datei: alle Produkte ausgeben
 Hier für begebe ich mich in das Verzeichnis /var/www/example.com/public/ und erstelle hier ein neues Verzeichnis:<br>
 ~~~
 mkdir -p api
@@ -47,5 +47,5 @@ https://www.example.com/api/getAllProducts.php
 ~~~
 Damit wirst du alle Inhalte von dem Shop sehen können. 
 
-Damit haben wir den ersten schritt getan und uns eine abfrage gebastelt 
-
+Damit haben wir den ersten schritt getan und uns eine abfrage gebastelt.
+#
