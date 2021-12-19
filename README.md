@@ -37,7 +37,7 @@ Hier für begebe ich mich in das Verzeichnis /var/www/example.com/public/ und er
 ~~~
 mkdir -p api
 ~~~
-Dann begebe ich mich in das Verzeichnis und erstelle hier meine erste Datei namens: 
+Dann begebe ich mich in das api Verzeichnis und erstelle hier meine erste Datei namens: 
 ~~~
 getAllProducts.php
 ~~~
@@ -46,7 +46,15 @@ Die Datei könnt Ihr im Browser aufrufen:
 https://www.example.com/api/getAllProducts.php
 ~~~
 Damit wirst du alle Inhalte von dem Shop sehen können. 
-
+Anmerkung:In der Datei:getAllProducts.php ist ein Filter eingestellt, welcher uns nur zwei spezifikationen von den Produkten anzeigt. 
+~~~
+$body = '{
+    "includes": {
+        "product": ["id", "name"]
+    }
+}';
+~~~
+Möchten wir uns mehr von den Produkten anzeigen lassen,so müssen entweder den Filter ausschalten oder weitere Parameter in den Filter aufnehmen.
 Damit haben wir den ersten schritt getan und uns eine abfrage gebastelt.
 ## API-Abfrage:Zeige mir alle Ѕteuersätze an
 Hierfür habe ich für dich eine neue Datei angelegt<br>
@@ -54,4 +62,7 @@ Hierfür habe ich für dich eine neue Datei angelegt<br>
 https://github.com/HendrikFagel/shopwareinfo/blob/main/getTaxID.php
 ~~~
 Du kannst diese Datei im Broswer aufrufen und es werden die alle Steuersätze, welche im Shopangelegt sind, angezeigt.
+~~~
+https://www.example.com/api/getTaxID.php
+~~~
 
