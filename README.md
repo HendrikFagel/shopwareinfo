@@ -68,7 +68,7 @@ https://www.example.com/api/getTaxID.php
 ## API-Abfrage:Zeige mir alle Spezifikationen eines Produktes
 Hierfür kannst du folgende Datei verwenden
 ~~~
-
+https://github.com/HendrikFagel/shopwareinfo/blob/main/getProduct.php
 ~~~
 Diese datei kannst du im Browser aufrufen und dir werden alle Daten eines Produktes angezeigt
 ~~~
