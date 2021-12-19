@@ -48,4 +48,4 @@ https://www.example.com/api/getAllProducts.php
 Damit wirst du alle Inhalte von dem Shop sehen können. 
 
 Damit haben wir den ersten schritt getan und uns eine abfrage gebastelt.
-#
+## API-Abfrage:Zeige mir alle Ѕteuersätze an
