@@ -76,6 +76,14 @@ https://www.example.com/api/getTaxID.php
 ~~~
 Zusatzinformation:Ich musste ich laut Spezifikation die GET-Methode verwenden. 
 
+## API-CREATE:Lege einen Produkt an
+Jetzt möchten wir einfach ein Produkt anlegen. <br>
+Dafür habe ich eine neue Datei angelegt mit dem Namen: 
+~~~
+setNewProdutcs.php
+~~~
+
+
 
 
 
