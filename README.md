@@ -49,3 +49,9 @@ Damit wirst du alle Inhalte von dem Shop sehen können.
 
 Damit haben wir den ersten schritt getan und uns eine abfrage gebastelt.
 ## API-Abfrage:Zeige mir alle Ѕteuersätze an
+Hierfür habe ich für dich eine neue Datei angelegt<br>
+~~~
+https://github.com/HendrikFagel/shopwareinfo/blob/main/getTaxID.php
+~~~
+Du kannst diese Datei im Broswer aufrufen und es werden die alle Steuersätze, welche im Shopangelegt sind, angezeigt.
+
