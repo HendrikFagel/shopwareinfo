@@ -38,4 +38,14 @@ Hier für begebe ich mich in das Verzeichnis /var/www/example.com/public/ und er
 mkdir -p api
 ~~~
 Dann begebe ich mich in das Verzeichnis und erstelle hier meine erste Datei namens: 
+~~~
+getAllProducts.php
+~~~
+Die Datei könnt Ihr im Browser aufrufen: 
+~~~
+https://www.example.com/api/getAllProducts.php
+~~~
+Damit wirst du alle Inhalte von dem Shop sehen können. 
+
+Damit haben wir den ersten schritt getan und uns eine abfrage gebastelt 
 
