@@ -80,8 +80,47 @@ Zusatzinformation:Ich musste ich laut Spezifikation die GET-Methode verwenden.
 Jetzt möchten wir einfach ein Produkt anlegen. <br>
 Dafür habe ich eine neue Datei angelegt mit dem Namen: 
 ~~~
-setNewProdutcs.php
+https://github.com/HendrikFagel/shopwareinfo/blob/main/setNewProducts.php
 ~~~
+Die neue Datei kannst du jetzt im Browser aufrufen und du wirst feststellen, das wir über die API ein neues Produkt angelegt haben.
+~~~
+https://sweetsplanet.com/api/setNewProducts.php
+~~~
+jetzt möchte ich mir die Datei etwas genauer anschauen. Der wichtigste Part dabei ist, folgender: 
+~~~
+$body = '{
+    "name": "Pronomen",
+    "productNumber": "77w5624352345",
+    "stock": 10,
+    "taxId": "ffed26b3194143518140ea11d87b8a26",
+    "price": [
+        {
+            "currencyId" : "b7d2554b0ce847cd82f3ac9bd1c0dfca", 
+            "gross": 15, 
+            "net": 10, 
+            "linked" : false
+        }
+    ]
+}';
+~~~
+Denn genau hier legen wir ein neues Produkt an. Ich werde einige Werte Dokumentieren, einige Werte ergeben sich einfaach. 
+~~~
+
+"name": "Pronomen", -> diesen Wert habe ich mir ausgedacht.
+
+"productNumber": "77w5624352345", -> auch diesen Wert habe ich mir ausgedacht.
+
+"taxId": "ffed26b3194143518140ea11d87b8a26", -> diesen Wert habe ich mir aus der vorherigen Abfrage abgeschaut, und zuwar die ID von dem 19% Mehrwertsteuer herausgepickt.
+
+"currencyId" : "b7d2554b0ce847cd82f3ac9bd1c0dfca", -> auch diesen Wert habe ich mir herausgeholt.
+
+~~~
+
+
+
+
+
+
 
 
 
