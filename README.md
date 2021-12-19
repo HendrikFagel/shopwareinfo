@@ -65,4 +65,17 @@ Du kannst diese Datei im Broswer aufrufen und es werden die alle Steuersätze, w
 ~~~
 https://www.example.com/api/getTaxID.php
 ~~~
+## API-Abfrage:Zeige mir alle Spezifikationen eines Produktes
+Hierfür kannst du folgende Datei verwenden
+~~~
+
+~~~
+Diese datei kannst du im Browser aufrufen und dir werden alle Daten eines Produktes angezeigt
+~~~
+https://www.example.com/api/getTaxID.php
+~~~
+Zusatzinformation:Ich musste ich laut Spezifikation die GET-Methode verwenden. 
+
+
+
 
