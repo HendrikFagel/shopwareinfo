@@ -103,14 +103,15 @@ $body = '{
     ]
 }';
 ~~~
-Denn genau hier legen wir ein neues Produkt an. Ich werde einige Werte Dokumentieren, einige Werte ergeben sich einfaach. 
+Denn genau hier legen wir ein neues Produkt an. Ich werde einige Werte Dokumentieren, einige Werte erklären sich von selbst. 
 ~~~
 
 "name": "Pronomen", -> diesen Wert habe ich mir ausgedacht.
 
 "productNumber": "77w5624352345", -> auch diesen Wert habe ich mir ausgedacht.
 
-"taxId": "ffed26b3194143518140ea11d87b8a26", -> diesen Wert habe ich mir aus der vorherigen Abfrage abgeschaut, und zuwar die ID von dem 19% Mehrwertsteuer herausgepickt.
+"taxId": "ffed26b3194143518140ea11d87b8a26", -> diesen Wert habe ich mir aus der vorherigen Abfrage abgeschaut,
+und zuwar die ID von dem 19% Mehrwertsteuer herausgepickt.
 
 "currencyId" : "b7d2554b0ce847cd82f3ac9bd1c0dfca", -> auch diesen Wert habe ich mir herausgeholt.
 
