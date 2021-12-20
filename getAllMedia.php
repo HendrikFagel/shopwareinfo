@@ -28,7 +28,7 @@ $body = '{
 
 
 $client = new GuzzleHttp\Client([
-          'base_uri' => 'https://www.sweetsplanet.com/',
+          'base_uri' => 'https://www.example.com/',
           'timeout' => 2.0,
           'headers' => ['Content-Type' => 'application/json'],'verify' => false,]);
 
